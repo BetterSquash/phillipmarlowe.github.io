@@ -1,1 +1,0 @@
-wkhtmltopdf --margin-left 0 --margin-top 0 --margin-right 0  --disable-javascript https://phillipmarlowe.com/2022/20220907.html 20220907.pdf
