@@ -480,4 +480,4 @@ a.colbglink:hover {color: #000;background:#999}
 .hot {font-weight: strong; color: red;}
 
 a.norm:link, a.norm:visited, a.norm:active,a.arc:link, a.arc:visited, a.arc:active {}
-a.norm:hover, a.arc:hover {color: black; background:yellow;text-decoration:underline solid 3px black;}
+a.norm:hover, a.arc:hover {color: black; background:yellow;text-decoration:underline solid 2px black;}
