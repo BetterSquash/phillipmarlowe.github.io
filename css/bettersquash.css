@@ -474,7 +474,7 @@ a.linknodec:link, a.linknodec:visited, a.linknodec:active {color: black; text-de
 a.linknodec:hover {color: white;background:#383838}
 
 a.linknodecdark:link, a.linknodecdark:visited, a.linknodecdark:active {color: white; text-decoration: none;}
-a.linknodecdark:hover {color: white;background:black}
+a.linknodecdark:hover {color: white;background:gray}
 
 
 a.colbglink:link, a.colbglink:visited, a.colbglink:active {color: white}
