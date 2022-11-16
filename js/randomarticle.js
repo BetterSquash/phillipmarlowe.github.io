@@ -1,4 +1,3 @@
-<script>
 var articlelinks=new Array()
 
 articlelinks[0]="/2022/20220502.html";
@@ -217,4 +216,3 @@ articlelinks[212]="/2022/20221130.html";
 function randomarticle();{
 window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
 }
-</script>
