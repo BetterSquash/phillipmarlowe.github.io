@@ -214,7 +214,7 @@ articlelinks[209]="/2022/20221127.html";
 articlelinks[210]="/2022/20221128.html";
 articlelinks[211]="/2022/20221129.html";
 articlelinks[212]="/2022/20221130.html";
-function randomarticle(){
+function randomarticle();{
 window.location=articlelinks[Math.floor(Math.random()*articlelinks.length)]
 }
 </script>
