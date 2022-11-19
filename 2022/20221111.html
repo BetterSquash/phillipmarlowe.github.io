@@ -33,30 +33,7 @@
 		<!-- Javascript -->
 		<script src="/js/lite-yt-embed.js"></script>
 		<script src="/js/random.js"></script>
-		<script>
-		//function use to convert character into words
-		function get_text(el) {
-		    ret = "";
-		    var length = el.childNodes.length;
-		    for(var i = 0; i < length; i++) {
-		        var node = el.childNodes[i];
-		        if(node.nodeType != 8) {
-		            ret += node.nodeType != 1 ? node.nodeValue : get_text(node);
-		        }
-		    }
-		    return ret;
-		}
-		//main body in which all words exist                              
-		var words = get_text(document.getElementById('main-body'));
-		var count = words.split(' ').length;
-		//avg reading speed of person 200 word per minute
-		var avg = 200;
-		var counted = count / avg;
-		var maincount = Math.round(counted)
-		//show output of code                              
-		document.getElementById("r-time").innerHTML = "✮ "+ maincount + " minute read";
-
-		</script>
+		<script src="/js/rtime.js"></script>
 	
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-0S86RGNRTK"></script>
@@ -85,7 +62,7 @@
         </span>
       </h3>
       <h4 class="f3 fw1 georgia i">You probably know that the original name of squash was “Squash Rackets”, although now we just use “squash” and it seems the “rackets” part has been dropped by most governing bodies and associations.</h4>
-      <p class="f6 mb2 dib ttu tracked"><a class="linknodec" href="https://bettersquash-com.translate.goog/2022/20221111.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp">Translate&#8599;</a> / <a class="linknodec" href="#share">Share</a> / <a class="linknodec" href="https://ttsreader.com/webplayer/?url=https://phillipmarlowe.com/2022/20221111.html">Audio&#8599;</a> / <div id='r-time'/> minute read</p> 
+      <p class="f6 mb2 dib ttu tracked"><a class="linknodec" href="https://bettersquash-com.translate.goog/2022/20221111.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=wapp">Translate&#8599;</a> / <a class="linknodec" href="#share">Share</a> / <a class="linknodec" href="https://ttsreader.com/webplayer/?url=https://phillipmarlowe.com/2022/20221111.html">Audio&#8599;</a> / <span id="time"></span> minute read</p> 
 	  
   </header>
   <div class="pa4 ph7-l Avenir mw9-l center">
