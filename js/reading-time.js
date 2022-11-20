@@ -59,8 +59,6 @@
         // define remaining reading time seconds
         readingTimeSeconds = Math.round(totalReadingTimeSeconds - (readingTimeDuration * 60));
 
-        document.querySelector(".reading-time__word-count").innerHTML = '(' + totalWords + ' ' + wordsLabel + ')';
-
         if (readingTimeDuration > 0) {
             if (readingTimeSeconds > 30) {
                 readingTimeDuration = readingTimeDuration + 1
