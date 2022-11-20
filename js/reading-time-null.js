@@ -64,9 +64,9 @@
         if (readingTimeDuration > 0) {
             if (readingTimeSeconds > 30) {
                 readingTimeDuration = readingTimeDuration + 1
-                document.querySelector(".reading-time__duration").innerHTML = readingTimeDuration + ' ' + minutesLabel;
+                document.querySelector(".reading-time__duration").innerHTML = readingTimeDuration + minutesLabel;
             } 
-            document.querySelector(".reading-time__duration").innerHTML = readingTimeDuration + ' ' + minutesLabel;
+            document.querySelector(".reading-time__duration").innerHTML = readingTimeDuration + minutesLabel;
         } else {
             document.querySelector(".reading-time_duration").innerHTML = lessThanAMinuteLabel;
         }
