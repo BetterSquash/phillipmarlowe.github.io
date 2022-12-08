@@ -11,6 +11,7 @@ poparticlelinks[7]="/2022/20220904.html";
 poparticlelinks[8]="/2022/20220831.html";
 poparticlelinks[9]="/2022/20220628.html";
 poparticlelinks[10]="/2022/20220910.html";
+poparticlelinks[11]="/2022/20221125.html";
 
 function RandomPopArticle(){
 window.location=poparticlelinks[Math.floor(Math.random()*poparticlelinks.length)]
